@@ -1,0 +1,30 @@
+{
+    "name": "statch/sortable",
+    "description": ":description",
+    "license": "MIT",
+    "authors": [{
+        "name": "Corrado Striuli",
+        "email": "corrado.striuli@gmail.com"
+    }],
+    "homepage": "https://bitbucket.com/statch/sortable",
+    "keywords": ["Laravel", "Sortable", "Statch"],
+    "require": {
+        "php": "^7.2",
+        "illuminate/support": "~5.8.0|^6.0|^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "^8.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3.8.0|^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Statch\\Sortable\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Statch\\Sortable\\Tests\\": "tests"
+        }
+    }
+}
