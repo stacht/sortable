@@ -13,14 +13,14 @@ This package is a fork of the popular [spatie/eloquent-sortable](https://github.
 Via Composer
 
 ``` bash
-$ composer require statch/sortable
+$ composer require stacht/sortable
 ```
 
 ## Usage
 
 To add sortable behaviour to your model you must:
 
-1. Use the trait `Statch\Sortable`.
+1. Use the trait `Stacht\Sortable`.
 2. Optionally specify which column will be used as the order column. The default is `position`.
 
 ### Examples
@@ -28,7 +28,7 @@ To add sortable behaviour to your model you must:
 *Simple ordered model*
 
 ```php
-use Statch\Sortable;
+use Stacht\Sortable;
 
 class MyModel extends Eloquent
 {
@@ -47,7 +47,7 @@ class MyModel extends Eloquent
 *Ordered model with a grouping column*
 
 ```php
-use Statch\Sortable;
+use Stacht\Sortable;
 
 class MyModel extends Eloquent
 {
@@ -67,7 +67,7 @@ class MyModel extends Eloquent
 *Ordered model grouped on multiple columns*
 
 ```php
-use Statch\Sortable;
+use Stacht\Sortable;
 
 class MyModel extends Eloquent
 {
@@ -188,5 +188,5 @@ If you discover any security related issues, please email corrado.striuli@gmail.
 
 MIT. Please see the [license file](license.md) for more information.
 
-[link-author]: https://bitbucket.com/statch
+[link-author]: https://bitbucket.com/stacht
 [link-contributors]: ../../contributors

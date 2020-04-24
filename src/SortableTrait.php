@@ -1,6 +1,6 @@
 <?php
 
-namespace Statch\Sortable;
+namespace Stacht\Sortable;
 
 use ArrayAccess;
 use Illuminate\Database\Eloquent\Builder;
