@@ -9,13 +9,13 @@
     "homepage": "https://bitbucket.com/stacht/sortable",
     "keywords": ["Laravel", "Sortable", "Stacht"],
     "require": {
-        "php": "^7.2",
-        "illuminate/support": "~5.8.0|^6.0|^7.0"
+        "php": "^7.2|^8.0",
+        "illuminate/support": "~5.8.0|^6.0|^7.0|^8.0"
     },
     "require-dev": {
-        "phpunit/phpunit" : "^8.0",
+        "phpunit/phpunit" : "^9.1",
         "mockery/mockery": "^1.1",
-        "orchestra/testbench": "~3.8.0|^4.0"
+        "orchestra/testbench": "~3.8.0|^4.0|^6.0"
     },
     "autoload": {
         "psr-4": {
